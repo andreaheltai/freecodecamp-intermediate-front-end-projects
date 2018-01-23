@@ -1,0 +1,54 @@
+body {
+  box-sizing: border-box;
+}
+
+.quoteSpace {
+  border-radius: 3px;
+  position: relative;
+  margin: 10% auto auto auto;
+  width: 450px;
+  padding: 50px;
+  background-color: #fff;
+  overflow: auto;
+}
+
+.quoteText {
+  font-family: 'Raleway', sans serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.5em;
+  opacity: 0.9;
+  height: auto;
+  line-height: 150%;
+}
+
+.author {
+  font-family: 'Raleway', sans serif;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1em;
+  height: auto;
+}
+
+.buttons {
+  border-radius: 3px;
+  border: none;
+  color: #fff;
+  height: 38px;
+  font-family: "Raleway", sans serif;
+  text-align: center;
+  margin-top: 20px;
+  padding: 8px 18px 8px 18px;
+}
+
+#generator {
+  float: right;  
+}
+
+#tweet {
+  float: left;
+}
+
+#authName::before {
+  content: "- ";
+}
