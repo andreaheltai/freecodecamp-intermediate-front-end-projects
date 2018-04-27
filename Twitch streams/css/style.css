@@ -1,0 +1,46 @@
+body {
+  background-color: #ccc;
+}
+
+.container {
+  background-color: #fff;
+  height: 100vh;
+  box-shadow: 5px 10px 10px 8px #555;
+}
+
+.page-title {
+  border-bottom: 1px solid rgba(85, 85, 85, 0.2);
+}
+
+h1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #4a5e82;
+}
+
+.stream {
+  border-bottom: 1px solid rgba(85, 85, 85, 0.2);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.stream img {
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.stream .name {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); 
+  justify-content: center;
+}
+
+.stream-info {
+  padding-top: 5px;
+  text-align: center;
+  font-style: italic;
+}
+
