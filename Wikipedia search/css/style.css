@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+  font-family: Montserrat;
+  background-color: #660099;
+  color: #c5c5c5;
+  font-size: 18px;
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top {
+  top: 150px;
+}
+
+.input-group {
+  width: 500px;
+  margin: 20px auto;
+}
+
+.input-group input, input-group span {
+  font-size: 20px;
+  height: 40px;
+}
+
+p a {
+  color: #c5c5c5;
+  text-decoration: none;
+}
+
+p a:hover, p a:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+.allArt {
+  margin-top: 150px;
+}
+
+.article {
+  background-color: #fff;
+  padding: 10px 15px;
+  margin-top: 10px; 
+}
+
+.allArt a {
+  color: #808080;
+}
+
+.allArt a:hover {
+  color: #660099;
+  text-decoration: none;
+}
+
+.article .title {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.article .content {
+  font-size: 16px;
+}
